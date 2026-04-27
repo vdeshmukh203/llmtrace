@@ -1,0 +1,21 @@
+# Python byte-code and caches
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# pytest cache
+.pytest_cache/
+
+# Editor / OS
+.DS_Store
+*.swp
