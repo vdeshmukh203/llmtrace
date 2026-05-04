@@ -1,4 +1,13 @@
 """Lightweight LLM call tracing and span collection."""
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 from .core import Llmtrace, Span
-__all__ = ["Llmtrace", "Span"]
+from .backends import Backend, MemoryBackend, JSONBackend, SQLiteBackend
+
+__all__ = [
+    "Llmtrace",
+    "Span",
+    "Backend",
+    "MemoryBackend",
+    "JSONBackend",
+    "SQLiteBackend",
+]
